@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kchiporros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="favicon.png"> 
+</head>
+<body>
+    <main id="top">
+        <header>
+            <h1>Kchiporros</h1>
+            <div class="menuMobile">
+              <button type="button" class="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div>
+                      <img src="./assets/img/images.png" alt="Menu Mobile">
+                  </div>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a href="#quienesSomos">Quienes somos</a></li>
+                  <li><a href="#discografia">Discografía</a></li>
+                  <li><a href="#tickets">Tickets</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                  <li><a href="registro.html"target="_blank">Registrarse</a></li>
+                  <li><a href="login.html"target="_blank">Log in</a></li>
+              </ul>
+            </div>    
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a href="#quienesSomos">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#discografia">Discografía</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#tickets">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contacto">Contacto</a>
+                    </li>
+                    <li>
+                      <a href="registro.html"target="_blank">Registrarse</a>
+                    </li>
+                    <li>
+                      <a href="login.html"target="_blank">Log in</a>
+                    </li>
+                  </ul>
+            </nav>
+        </header>
+        <section class="quienesSomos" id="quienesSomos">
+            <div>
+                <p>Somos Kchiporros, una banda de música del género "popular urbano", formada en Asunción del Paraguay en el año 2006.
+                  La banda está conformada por Roberto Ruiz Diaz(voz), Julio Troche(voz y guiro), Mario Halley(guitarra), Fernando Peyrat(batería), Rodrigo Ojeda(voz y guitarra), Edgar Aquino(bajo), Pedro Fadul(voz y octapad), Eugenio Barath(teclados) y Gustavo Gomez(percusión).
+                </p>
+            </div>
+            <div class="videoMobile">
+              <iframe width="320" height="325" src="https://www.youtube.com/embed/Q1Ir76Eq4C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="videoTab">
+            <iframe width="520" height="325" src="https://www.youtube.com/embed/Q1Ir76Eq4C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            <div class="videoDesktop">
+                <iframe width="860" height="325" src="https://www.youtube.com/embed/Q1Ir76Eq4C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="discografia" id="discografia">
+           <div>
+            <h1>Discografía</h1>
+           </div>
+           <div>
+             <ul>
+               <li>
+                 <div>
+                    <img src="./assets/img/guaraniCool.jpeg" alt="guaraniCool">
+                 </div>
+                 <a href="https://open.spotify.com/album/76CmUL9c0Jc7pGoFtOa2EK" target="_blank">Guaraní Cool</a> 
+                </li>
+               <li>
+                 <div>
+                    <img src="./assets/img/srPombero.jpg" alt="srPombero">
+                 </div>
+                 <a href="https://open.spotify.com/album/1iVn8QVQZA4GBBtM5YpafX"target="_blank">Sr pombero</a>
+                </li>
+               <li>
+                 <div>
+                    <img src="./assets/img/sienteElMovimiento.jpeg" alt="sienteElMovimiento">
+                 </div>
+                 <a href="https://open.spotify.com/album/1DKafr2TsCi0gc4j3vnzW4" target="_blank">Siente el movimiento</a>
+                </li>
+               <li>
+                 <div>
+                    <img src="./assets/img/parteDeCrecer.png" alt="parteDeCrecer">
+                 </div>
+                 <a href="https://open.spotify.com/album/2jHo3Y2XyoueRIno9w6YqN"target="_blank">Parte de crecer</a>
+                </li>
+             </ul>
+           </div>
+        </section>
+        <section class="tickets" id="tickets">
+            <div class="principalWrapper">
+                <h1>Tickets</h1>
+                <ul>
+                  <li>
+                    <div>
+                      <img src="./assets/img/general.jpg" alt="general">
+                    </div>
+                    <span>entrada <strong>general</strong> </span><br>
+                    <span>teatro gran rex</span><br>
+                    <span>$800 </span><br> 
+                    <button onclick="{addProduct('general',800,1)}">
+                      <a href="#cartWrapper">comprar</a> 
+                    </button>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="./assets/img/platea.jpg" alt="platea">
+                    </div>
+                    <span>entrada <strong>platea</strong> </span><br>
+                    <span>teatro gran rex</span><br>
+                    <span>$1200 </span><br> 
+                    <button onclick="{addProduct('platea',1200,1)}">
+                      <a href="#cartWrapper">comprar</a> 
+                    </button>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="./assets/img/palco.jpg" alt="palco">
+                    </div>
+                    <span>entrada <strong>palco</strong> </span><br>
+                    <span>teatro gran rex</span><br>
+                    <span>$2000</span><br> 
+                    <button onclick="{addProduct('palco',2000,1)}">
+                      <a href="#cartWrapper">comprar</a> 
+                    </button>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="./assets/img/vip.jpg" alt="vip">
+                    </div>
+                    <span>entrada <strong>vip</strong> </span><br>
+                    <span>teatro gran rex</span><br>
+                    <span>$3500</span><br> 
+                    <button onclick="{addProduct('vip',3500,1)}">
+                      <a href="#cartWrapper">comprar</a> 
+                    </button>
+                  </li>
+                </ul>
+              </div>
+          <section class="cartWrapper" id="cartWrapper">
+                  <span>carrito de compras</span>
+          </section>
+              
+        </section>
+        <footer class="contacto" id="contacto" >
+            <ul>
+              <li><a href="https://www.youtube.com/channel/UCESJGtUsW2IfZ13gAwaw2YQ" target="_blank">YouTube</a></li>
+              <li><a href="https://open.spotify.com/artist/6bxlchoOipKgLaJKgoCzOZ" target="_blank">Spotify</a></li>
+              <li><a href="https://www.instagram.com/kchiporros/" target="_blank">Instagram</a></li>
+              <li><a href="https://twitter.com/kchiporros?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></li>
+              <li><a href="https://www.facebook.com/kchiporros" target="_blank">Facebook</a></li>
+            </ul>
+            <div>
+              <span>
+                © Copyrights <strong>Maximiliano Ganzero</strong>. All Rights Reserved
+            </span>
+            <span>
+                Created template by <a href="https://github.com/maxiganzero" target="_blank">maxig3</a>
+            </span>
+            </div>
+        </footer>
+        <a class="vinyl" href="#top">
+          <div>
+              <img src="./assets/img/vinyl.jpg" alt="vinyl">
+          </div>
+      </a>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

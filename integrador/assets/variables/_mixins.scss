@@ -1,0 +1,26 @@
+@import './_colors';
+
+@mixin orderFlex($direction, $justify-content, $align-items){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+ }
+
+ @mixin resetStyles{
+    * {
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+    * img {
+         width: 100%;
+         height: auto;
+    }
+    
+    *span , h1{
+        text-transform: uppercase;
+        font-family: 'Clarkson',Helvetica,sans-serif;
+    }
+ }
